@@ -1,0 +1,14 @@
+.avaContainer img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+.avaContainer{
+    height: 200px;
+    width: 200px;
+    
+}
+
+.nameContainer{
+    margin: auto auto 10px auto;
+}

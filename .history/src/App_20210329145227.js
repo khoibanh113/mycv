@@ -1,12 +1,12 @@
 import React,{Component} from 'react'
 import Avatar from './component/avatar'
-import AvaImg from './image/avatar.jpg'
+import AvaImg from 'src/image/avatar.jpg'
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <Avatar img={AvaImg} />
+        <Avatar img='{AvaImg}' />
       </div>
     );
   }

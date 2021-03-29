@@ -1,0 +1,10 @@
+.avaContainer img {
+    height: 100%;
+    width: 100%;
+}
+.avaContainer{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
