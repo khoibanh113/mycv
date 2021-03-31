@@ -16,7 +16,16 @@ class App extends Component {
           email='abc@gmail.com'
           linkedin='LinkedIN'
         />
-        <Experience />
+        <Experience  
+          projectname ='Project Course'
+          projecttime='March 03 2019 - March 30 2019'
+          projectlocation='ABC Company'
+          decription ='A free mobile app delivering Lancaster University services, resources, and information - at your fingertips - whenever you want them, from wherever you are!'
+          teamsize='5'
+          responsiblities='Meeting with customers and teammates to get clear requirement. Develop the frameworks and modules of the system.'
+          accomplishments='Learned new Microsoft technologies and frameworks. Improved teamwork and communication skills.'
+          technologies='Front-end: ReactJS + Redux, Webpack. Back-end ASP.NET MVC5, Entity Framework.'
+        />
 
 
       </div>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=New+Tegomin&family=Noto+Sans&family=Quicksand:wght@300&display=swap');
 .container-experience{
     max-width: fit-content;
     border: 1px solid black; 
@@ -10,7 +13,27 @@
     width: 150px;
     padding: 0px 0px;
     margin-right: 45px;
+    font-family: 'Noto Sans', sans-serif;
 }
 .detail-content{
     width: 600px;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
 }
+.project-name{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.project-location,.project-time {
+    display: inline-block;
+    font-style: italic;
+    margin: 0px 35px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.project-time{
+    float:right;
+}
+
+

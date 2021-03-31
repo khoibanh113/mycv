@@ -2,22 +2,37 @@ import {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/experience.css'
 class experience extends Component{
-
+    constructor(props){
+        super(props);
+        this.decription = props.decription;
+        this.teamsize = props.teamsize;
+        this.responsiblities = props.responsiblities;
+        this.accomplishments = props.accomplishments;
+        this.technologies = props.technologies;
+        this.projectname = props.projectname;
+        this.projecttime = props.projecttime;
+        this.projectlocation = props.projectlocation;
+    }
 
     render(){
         return(
             <div>
-                {/* <div className="row row-experience">
-                    <div className="col-2">Project:</div>
-                    <div className="col">Projectname</div>
-                    
-                </div> */}
                 <div className='container-experience'>
+                    <div className='project-name'>
+                        <span>{this.projectname}</span>
+                    </div>
+                    <div className='project-location'>
+                        <span>{this.projectlocation}</span>
+                    </div>
+                    <div className='project-time'>
+                        <span>{this.projecttime}</span>
+                    </div>
+
                     <div className="row row-experience">
                         <div className="col-2 col-item"><b>Decription:</b></div>
                         <div className="col detail-content">
                             <span>
-                            A free mobile app delivering Lancaster University services, resources, and information - at your fingertips - whenever you want them, from wherever you are!
+                                {this.decription}
                             </span>
                         </div>
                     </div>
@@ -25,7 +40,7 @@ class experience extends Component{
                         <div className="col-2 col-item"><b>Teamsize:</b></div>
                         <div className="col detail-content">
                             <span>
-                            5
+                            {this.teamsize}
                             </span>
                         </div>
                     </div>
@@ -33,7 +48,7 @@ class experience extends Component{
                         <div className="col-2 col-item"><b>Responsiblities:</b></div>
                         <div className="col detail-content">
                             <span>
-                            Meeting with customers and teammates to get clear requirement. Develop the frameworks and modules of the system.
+                            {this.responsiblities}
                             </span>
                         </div>
                     </div>
@@ -41,7 +56,7 @@ class experience extends Component{
                         <div className="col-2 col-item"><b>Accomplishments:</b></div>
                         <div className="col detail-content">
                             <span>
-                            Learned new Microsoft technologies and frameworks. Improved teamwork and communication skills.
+                            {this.accomplishments}
                             </span>
                         </div>
                     </div>
@@ -49,7 +64,8 @@ class experience extends Component{
                         <div className="col-2 col-item"><b>Technologies:</b></div>
                         <div className="col detail-content">
                             <span>
-                            Front-end: ReactJS + Redux, Webpack. Back-end ASP.NET MVC5, Entity Framework.</span>
+                            {this.technologies}
+                            </span>
                         </div>
                     </div>
                 </div>
