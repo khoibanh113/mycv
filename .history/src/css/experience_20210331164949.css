@@ -1,0 +1,16 @@
+.container-experience{
+    max-width: fit-content;
+    border: 1px solid black; 
+    border-radius: 5px;
+}
+.row-experience{
+    margin: 10px 0px 10px 30px;
+}
+.col-item{  
+    width: 150px;
+    padding: 0px 0px;
+    margin-right: 45px;
+}
+.detail-content{
+    width: 600px;
+}

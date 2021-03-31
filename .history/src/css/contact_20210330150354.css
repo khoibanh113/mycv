@@ -1,0 +1,12 @@
+.row{
+    padding: 10px 0px 10px 30px;
+}
+.col-1{
+    padding: 0px 0px;
+    max-width: 10px;
+
+}
+.container-contact{
+    border: 1px solid black;
+}
+

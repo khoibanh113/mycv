@@ -1,0 +1,12 @@
+.address-line{
+    padding-left: 0px;
+}
+.address-line li {
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.address-line li > *{
+    margin-left: 10px;
+}
+
