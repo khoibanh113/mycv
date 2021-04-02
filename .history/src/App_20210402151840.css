@@ -4,12 +4,7 @@
   border: 1px solid black;
   margin: 0px auto;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
 }
-.name{
-  display: table;
-  text-align: center;
-  margin: 0px 5px auto auto;
-}
-.avatar{
-  float: left;
-}
+

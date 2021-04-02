@@ -3,22 +3,15 @@ import './App.css'
 import Avatar from './component/avatar'
 import AvaImg from './image/avatar.jpg'
 import Contact from './component/contact'
-import Name from './component/name'
+import Study from './component/study'
 import Experience from './component/experience'
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <div className="avatar">
-         <Avatar img={AvaImg} />
-        </div>
-        
-        
-        <div className='name'>
-          <Name name='Nguyen Vo Hoang Khoi' />
-        </div>
-        
+        {/* <Avatar img={AvaImg} />
         <Contact 
+          name='Nguyen Vo Hoang Khoi' 
           location='Ho Chi Minh, Viet Nam'
           phone='0123456789' 
           email='abc@gmail.com'
@@ -33,7 +26,7 @@ class App extends Component {
           responsiblities='Meeting with customers and teammates to get clear requirement. Develop the frameworks and modules of the system.'
           accomplishments='Learned new Microsoft technologies and frameworks. Improved teamwork and communication skills.'
           technologies='Front-end: ReactJS + Redux, Webpack. Back-end ASP.NET MVC5, Entity Framework.'
-        />
+        /> */}
 
 
       </div>

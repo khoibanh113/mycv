@@ -19,6 +19,7 @@ class App extends Component {
         </div>
         
         <Contact 
+          name='NguyenVoHoangKhoi' 
           location='Ho Chi Minh, Viet Nam'
           phone='0123456789' 
           email='abc@gmail.com'
