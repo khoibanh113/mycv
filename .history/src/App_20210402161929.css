@@ -3,13 +3,9 @@
   width: 80%;
   border: 1px solid black;
   margin: 0px auto;
-  position: relative;
+  /* position: relative; */
 }
 .name{
-  display: table;
   text-align: center;
-  margin: 0px 5px auto auto;
-}
-.avatar{
-  float: left;
+  margin: 0px auto;
 }

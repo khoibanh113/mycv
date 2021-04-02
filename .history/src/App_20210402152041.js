@@ -9,16 +9,11 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <div className="avatar">
-         <Avatar img={AvaImg} />
-        </div>
-        
-        
-        <div className='name'>
-          <Name name='Nguyen Vo Hoang Khoi' />
-        </div>
-        
+        <Avatar className="avatar" img={AvaImg} />
+        {/* <Name className="name" name='Nguyen Vo Hoang Khoi' /> */}
+        <div className="name">123</div>
         <Contact 
+          name='Nguyen Vo Hoang Khoi' 
           location='Ho Chi Minh, Viet Nam'
           phone='0123456789' 
           email='abc@gmail.com'

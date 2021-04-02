@@ -15,7 +15,7 @@ class App extends Component {
         
         
         <div className='name'>
-          <Name name='Nguyen Vo Hoang Khoi' />
+          <Name name='NguyenVo HoangKhoi' />
         </div>
         
         <Contact 

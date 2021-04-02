@@ -1,0 +1,11 @@
+.App{
+  height: fit-content;
+  width: 80%;
+  border: 1px solid black;
+  margin: 0px auto;
+  position: absolute;
+}
+.name{
+  position: absolute;
+  margin: 0px auto;
+}

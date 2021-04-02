@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,800&display=swap');
+.name-container{
+    width: fit-content;
+    border: solid 1px black;
+    text-align: center;
+}
+.last-Name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+.first-Name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+}
